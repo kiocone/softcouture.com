@@ -254,4 +254,12 @@ figure {
   }
 }
 
+.brick {
+  width: 290px;
+}
+
+.container-fluid-center {
+  padding: auto;
+  padding-left: 15%;
+}
 /*# sourceMappingURL=style.css.map */
