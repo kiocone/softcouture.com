@@ -15,8 +15,10 @@ body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 16px;
-  background: #fff;
-  color: #848484;
+  background: #c21500;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #333333;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -96,7 +98,7 @@ figure {
   font-size: 15px;
 }
 #fh5co-header nav ul li a {
-  color: #999999 !important;
+  color: #333333 !important;
   padding: 10px;
 }
 @media screen and (max-width: 480px) {
@@ -138,7 +140,7 @@ figure {
 }
 .fh5co-projects-feed .fh5co-project > a h2 {
   font-size: 14px;
-  color: #3f3f3f;
+  color: #2c2c2c;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -221,7 +223,7 @@ figure {
 }
 #fh5co-footer .social a {
   padding: 10px;
-  color: #999999 !important;
+  color: #696969 !important;
 }
 @media screen and (max-width: 480px) {
   #fh5co-footer .social a {
