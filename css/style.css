@@ -15,10 +15,10 @@ body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 16px;
-  background: #c21500;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #333333;
+  background: #fcd659;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcd659, #f5843a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcd659, #f5843a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #0c0b18;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -27,7 +27,7 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #2da9d7;
+  color: #704f11;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -43,7 +43,14 @@ a:active, a:focus {
 p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 15px;
-  color: #848484;
+  color: #0c0b18;
+  font-family: "Roboto", Arial, serif;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-size: 15px;
+  color: #0c0b18;
   font-family: "Roboto", Arial, serif;
 }
 
@@ -171,6 +178,7 @@ figure {
   width: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
+  color: #0c0b18;
 }
 .page-content img {
   max-width: 100%;
@@ -188,10 +196,10 @@ figure {
   margin-bottom: 20px;
 }
 .page-content .meta span {
-  color: #bfbfbf;
+  color: #0c0b18;
 }
 .page-content .meta a {
-  color: #bfbfbf;
+  color: #0c0b18;
 }
 .page-content .meta a:hover, .page-content .meta a:active, .page-content .meta a:focus {
   color: #000 !important;
